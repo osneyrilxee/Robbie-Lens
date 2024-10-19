@@ -1,0 +1,40 @@
+/* header banner */
+
+/* header {
+    background-color: white;
+} */
+
+a:hover {
+    text-decoration: underline;
+}    
+/* header nav for  */
+
+header {
+    padding: 20px 50px;
+}
+
+a {
+    margin: 30px;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    color: #242424;
+    font-size: 1em;
+}
+
+nav, a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-robby {
+    margin-bottom: 20px;
+}
+
+.logo-robby:hover  {
+    opacity: 50%;
+}

@@ -1,0 +1,10 @@
+Montserrat 
+
+font-family: 'Changa One', cursive;
+font-family: 'Manrope', sans-serif;
+
+Manrope 
+
+font-family: 'Changa One', cursive;
+font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
