@@ -19,17 +19,71 @@
         <div class="logo">
             <img class="logo-robby" src="../assets/logo.png" alt="">
         </div>
-        <div>
-        <a class="nav one" href="../scripts/main.html">Accueil</a>
-        <a class="nav two" href="../scripts/more.html">À propos</a>
-        <a class="nav three" href="../scripts/portfolio.html">Portfolio</a>
+        <div class="nav-list-a">
+            <a href="../scripts/main.html">Accueil</a>
+            <a href="../scripts/more.html">À propos</a>
+            <a href="../scripts/portfolio.html">Portfolio</a>
         </div>
     </nav>
 </header>
 
 <body>
     <main>
+        <section id="section-1-portfolio-explained">
+            <div id="div-introduction">
+                <h1>Robbie Lens Photographie</h1>
+                <br>
+                <p style="font-size: 1.1em; margin-bottom: 30px;">Où <em>professionalisme</em> s’allie avec
+                    <em>passion</em>. Depuis plus de 5 ans<br>
+                    maintenant, j’exerce mon métier avec la passion qui m’anime :<br> capturer l’essence de chaque
+                    instant.
+                </p>
+                <a style="background-color: #9c9ac9; border-radius: 50px; padding: 20px 30px; color: white; display: inline-block"
+                    type="submit" href="../scripts/main.html/section-2-pictures-grid">UN PROJET ? ÉCRIVEZ-MOI</a>
+            </div>
+            <img src="../assets/robbie-lens.png" alt="robbie lens picture face">
+        </section>
+        <section id="section-2-pictures-grid">
+            <h2>Mon dernier projet</h2>
+            <div id="grid-6-pictures">
+                <img class="1" src="../assets/project/element-1.png" alt="first pictures">
+                <img class="2" src="../assets/project/element-2.png" alt="second pictures">
+                <img class="3" src="../assets/project/element-3.png" alt="third pictures">
+                <img class="4" src="../assets/project/element-4.png" alt="fourth picures">
+                <img class="5" src="../assets/project/element-5.png" alt="fifth pictures">
+                <img class="6" src="../assets/project/element-6.png" alt="sixth pictures">
+            </div>
+        </section>
+        <section id="contact" class="section-contact">
+            <h2>Parlons de votre projet</h2>
+            <form method="get" action="">
+                <div class="form-nom-email">
+                    <div class="form-column">
+                        <label for="nom">nom</label>
+                        <input type="text" name="nom" id="nom" />
+                    </div>
+                    <div class="form-column">
+                        <label for="email">email</label>
+                        <input type="e-mail" name="email" id="email" />
+                    </div>
+                </div>
+                <label for="message">message</label>
+                <textarea name="message" id="message" rows="10"></textarea>
+                <input type="submit" value="ENVOYER" class="cta" />
+            </form>
+        </section>
     </main>
+    <footer>
+        <div class="socials">
+            <img class="logo-robby" src="../assets/logo.png" alt="">
+            <div class="socials-logo">
+                <a class="socials-logo" src="../assets/socials/twitter.png" alt="twitter logo"><img
+                        src="../assets/socials/twitter.png" alt=""></a>
+                <a class="socials-logo" href="https://www.instagram.com/" alt="instagram logo"><img
+                        src="../assets/socials/instagram.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
