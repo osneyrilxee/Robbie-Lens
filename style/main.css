@@ -103,14 +103,15 @@ main #section-2-pictures-grid {
 
 main #section-2-pictures-grid #grid-6-pictures {
     display: flex;
-    flex-flow: row wrap;
-    padding: 40px;
-    margin: 0;
-    gap: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 15% 0 15%;
 }
 
 .section-contact h2 {
-    color: #aaa2ff;
+    color: #d1cdff;
     text-align: center;
     margin-bottom: 50px;
     padding:50px 0px 0px 0px;
@@ -180,6 +181,10 @@ footer .socials {
 }
 
 .cta:hover {
-    background-color: #887dff;
+    background-color: #bcb6ff;
     color: rgb(0, 0, 0);
+}
+
+#grid-6-pictures {
+    width: 71%;
 }
