@@ -64,6 +64,10 @@ main {
     background-color: #1f2039;
 }
 
+#div-introduction {
+    width: 550px;
+}
+
 #section-1-portfolio-explained h1 {
     font-size: 3.5em;
     color: #a5b4fc;
@@ -114,8 +118,8 @@ main #section-2-pictures-grid #grid-6-pictures {
     color: #d1cdff;
     text-align: center;
     margin-bottom: 50px;
-    padding:50px 0px 0px 0px;
-  }
+    padding: 50px 0px 0px 0px;
+}
 
 form {
     display: flex;
@@ -124,37 +128,37 @@ form {
     max-width: 1000px;
     margin: auto;
     color: white;
-  }
-  
-  .form-nom-email {
+}
+
+.form-nom-email {
     display: flex;
     flex-direction: row;
     gap: 20px;
-  }
-  
-  .form-column {
+}
+
+.form-column {
     flex: 1;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-  }
-  
-  input,
-  textarea {
+}
+
+input,
+textarea {
     padding: 15px;
     border-radius: 3px;
     border: none;
-  }
-  
-  label {
+}
+
+label {
     margin-bottom: 10px;
-  }
-  
-  input[type='submit'] {
+}
+
+input[type='submit'] {
     width: 200px;
     margin: auto;
     margin-top: 30px;
-  }
+}
 
 main footer {
     display: flex;
@@ -187,4 +191,52 @@ footer .socials {
 
 #grid-6-pictures {
     width: 71%;
+}
+
+@media screen and (max-width: 1103px) {
+
+    main #section-1-portfolio-explained {
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 1000px;
+        align-items: flex-start;
+        margin: auto;
+        padding: 80px;
+        color: #fff;
+    }
+
+    #robbie-lens-size {
+        height: 100%;
+        width: 100%;
+        margin: auto auto 50px auto;
+    }
+
+    #div-introduction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: auto;
+    }
+
+    form {
+        padding: 0px 20px 50px 20px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 2079px) {
+    div#grid-6-pictures {
+        width: 50%;
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    body {
+        width: 100%;
+    }
 }
